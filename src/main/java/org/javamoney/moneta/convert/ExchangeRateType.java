@@ -17,11 +17,6 @@ package org.javamoney.moneta.convert;
 
 import javax.money.convert.ExchangeRateProviderSupplier;
 
-import org.javamoney.moneta.internal.convert.ECBCurrentRateProvider;
-import org.javamoney.moneta.internal.convert.ECBHistoric90RateProvider;
-import org.javamoney.moneta.internal.convert.ECBHistoricRateProvider;
-import org.javamoney.moneta.internal.convert.IMFHistoricRateProvider;
-import org.javamoney.moneta.internal.convert.IMFRateProvider;
 import org.javamoney.moneta.internal.convert.IdentityRateProvider;
 
 /**
